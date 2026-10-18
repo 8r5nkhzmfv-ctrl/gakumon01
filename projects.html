@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>学習プロジェクト｜学問体系書</title>
+<meta name="description" content="学習プロジェクトと進捗。">
+<link rel="stylesheet" href="assets/style.css">
+<script>var SLUGS=[["physics", "物理学"], ["chemistry", "化学"], ["biology", "生物学"], ["earth-science", "地学"], ["astronomy", "天文学"], ["mathematics", "数学"], ["statistics", "統計学"], ["logic", "論理学"], ["computer-science", "コンピューターサイエンス"], ["philosophy", "哲学"], ["history", "歴史学"], ["literature", "文学"], ["linguistics", "言語学"], ["religious-studies", "宗教学"], ["psychology", "心理学"], ["sociology", "社会学"], ["economics", "経済学"], ["political-science", "政治学"], ["law", "法学"], ["anthropology", "人類学"], ["geography", "地理学"], ["medicine", "医学"], ["public-health", "公衆衛生"], ["engineering", "工学"], ["education", "教育学"], ["management", "経営学"], ["social-welfare", "福祉学"], ["agriculture", "農学"], ["environment", "環境学"], ["music", "音楽"], ["visual-art", "美術"], ["design", "デザイン"], ["theatre", "演劇"], ["film", "映像"]];</script>
+</head>
+<body class="">
+<div class="topbar"><div class="wrap wide">
+<a class="brand" href="index.html">学問体系書</a>
+<nav aria-label="サイト内ナビゲーション"><a href="index.html">トップ</a><a href="guide.html">学び方</a><a href="map.html">分野マップ</a><a href="themes/index.html">横断テーマ</a><a href="glossary.html">用語集</a><a href="materials.html">資料・教材</a><a href="projects.html">学習プロジェクト</a></nav>
+<div class="searchbox"><input id="q" type="search" placeholder="分野・用語を検索" aria-label="検索" autocomplete="off"><div id="sres"></div></div>
+</div></div>
+<header class="hero"><div class="wrap wide"><span class="tag">学習プロジェクト</span><h1>学習プロジェクト</h1><p class="lead">学んだことを使い、自分の問いを小さな成果物にする。</p>
+<div class="panel" id="overall"><strong>全体の進み具合</strong> <span class="txt muted"></span><div class="bar"><i></i></div></div></div></header>
+<main class="wrap wide">
+<section class="box"><h2>プロジェクトの例</h2><div class="grid"><article class="card"><h3>横断テーマ比較レポート</h3><p>横断テーマを一つ選び、各分野の「説明できること／しにくいこと」を1枚にまとめる。</p><p><a href="themes/index.html">関連ページ</a></p></article><article class="card"><h3>身近な現象の観察記録</h3><p>自然科学の演習を一つ選び、2週間の観察記録と考察を作る。</p><p><a href="map.html#nat">関連ページ</a></p></article><article class="card"><h3>制度・統計を読む</h3><p>公的統計を一つ選び、定義・分母・限界を整理して要点を書く。</p><p><a href="fields/statistics.html">関連ページ</a></p></article><article class="card"><h3>概念カード集</h3><p>用語集から20語を選び、自分の言葉と具体例のカードを作る。</p><p><a href="glossary.html">関連ページ</a></p></article><article class="card"><h3>ミニ体系書を作る</h3><p>関心のある一分野を、入門→基本→応用の型で自分用に1ページ作る。</p><p><a href="guide.html">関連ページ</a></p></article></div></section>
+<section class="box"><h2>計画テンプレート</h2>
+<p><label>問い（何を明らかにしたいか）<textarea data-note="proj:q"></textarea></label></p>
+<p><label>関わる分野と、その理由<textarea data-note="proj:f"></textarea></label></p>
+<p><label>使う資料・データ（出典・年）<textarea data-note="proj:s"></textarea></label></p>
+<p><label>方法（観察・調査・分析・制作）<textarea data-note="proj:m"></textarea></label></p>
+<p><label>予想される限界・不確かさ<textarea data-note="proj:l"></textarea></label></p>
+<p><label>成果物と締め切り<textarea data-note="proj:o"></textarea></label></p></section>
+<section class="box"><h2>分野別の進み具合</h2><div class="tablewrap"><table><thead><tr><th>分野</th><th>完了した段階</th></tr></thead><tbody id="progtable"></tbody></table></div></section>
+<section class="box"><h2>記録のバックアップ</h2>
+<p class="muted">ノート・進捗・資料記録はこの端末のブラウザー内のみに保存される。端末やブラウザーを変える場合はファイルに書き出して移す。ファイルは自分で管理し、共有する前に内容を確認すること。</p>
+<p><button id="exportall" type="button">記録を書き出す</button> <label class="ghost">読み込む <input id="importall" type="file" accept="application/json"></label></p></section>
+</main>
+<footer class="site"><div class="wrap">
+<p>このサイトは学習用の案内図です。分野の区分は固定的でなく、学問どうしは重なり合います。医療・法律・投資などの個別判断には、専門家と最新の公的情報を使ってください。</p>
+<p>学習ノートと進捗は、この端末のブラウザー内にだけ保存され、外部へは送信されません。</p>
+</div></footer>
+<script>var ROOT="";</script>
+<script src="assets/search-index.js"></script>
+<script src="assets/app.js"></script>
+</body></html>
