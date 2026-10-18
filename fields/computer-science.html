@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>コンピューターサイエンス｜学問体系書</title>
+<meta name="description" content="計算・情報・アルゴリズム・システムの原理と設計を研究する学問。">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="cat-math">
+<div class="topbar"><div class="wrap wide">
+<a class="brand" href="../index.html">学問体系書</a>
+<nav aria-label="サイト内ナビゲーション"><a href="../index.html">トップ</a><a href="../guide.html">学び方</a><a href="../map.html">分野マップ</a><a href="../themes/index.html">横断テーマ</a><a href="../glossary.html">用語集</a><a href="../materials.html">資料・教材</a><a href="../projects.html">学習プロジェクト</a></nav>
+<div class="searchbox"><input id="q" type="search" placeholder="分野・用語を検索" aria-label="検索" autocomplete="off"><div id="sres"></div></div>
+</div></div>
+
+<header class="hero"><div class="wrap">
+<a class="tag" href="../map.html#math">数学・情報</a>
+<h1>コンピューターサイエンス</h1>
+<p class="lead">計算・情報・アルゴリズム・システムの原理と設計を研究する学問。</p>
+<div class="kw" aria-label="キーワード"><span>アルゴリズム</span><span>計算量</span><span>データ構造</span><span>抽象化</span><span>プログラム</span><span>ネットワーク</span></div>
+<ul class="pills" aria-label="ページ内目次">
+<li><a href="#intro">入門</a></li><li><a href="#basic">基本</a></li><li><a href="#applied">応用</a></li><li><a href="#methods">方法</a></li><li><a href="#advanced">発展</a></li><li><a href="#connections">つながり</a></li><li><a href="#practice">演習</a></li><li><a href="#check">確認問題</a></li>
+</ul>
+<div class="panel" id="progress" data-slug="computer-science">
+<strong>この分野の進み具合</strong>
+<div class="prog">
+<label><input type="checkbox" data-k="intro">入門</label>
+<label><input type="checkbox" data-k="basic">基本</label>
+<label><input type="checkbox" data-k="applied">応用</label>
+<label><input type="checkbox" data-k="adv">発展</label>
+</div>
+<div class="bar" role="presentation"><i></i></div>
+</div>
+</div></header>
+<main class="wrap">
+<section class="box" id="intro">
+<h2>入門：コンピューターサイエンスは何を問うか</h2>
+<h3>主要な問い</h3><ul class="qlist"><li>何が計算でき、何が計算できないのか。</li><li>効率の良い手順（アルゴリズム）とは何か。</li><li>情報をどう表現・保存・伝達するのか。</li><li>大規模で信頼できるシステムをどう設計するのか。</li></ul>
+<h3>基本概念</h3><dl class="terms"><dt>アルゴリズム</dt><dd>問題を解く手順。</dd><dt>計算量</dt><dd>手順に必要な時間や記憶量の増え方。</dd><dt>データ構造</dt><dd>データを効率よく扱う整理の形。</dd><dt>抽象化</dt><dd>詳細を隠し、使い方だけを見せる設計。</dd><dt>プログラム</dt><dd>アルゴリズムを機械が実行できる形で書いたもの。</dd><dt>ネットワーク</dt><dd>計算機同士が情報をやり取りする仕組み。</dd></dl>
+<h3>まず身につける見方</h3><blockquote class="pull"><p>「動く」だけでなく、正しさ・効率・保守性を分けて評価する。入力が増えたとき手順の負担がどう増えるか（<strong class="em">計算量</strong>）の見通しが基礎になる。</p></blockquote>
+</section>
+
+<section class="box" id="basic">
+<h2>基本：主要な領域と考え方</h2>
+<div class="item"><span class="num">1</span><div><strong>プログラミングの基礎</strong><p>変数・条件分岐・繰り返し・関数。</p></div></div><div class="item"><span class="num">2</span><div><strong>アルゴリズムとデータ構造</strong><p>探索・整列・グラフ。<strong class="em">計算量</strong>の考え方。</p></div></div><div class="item"><span class="num">3</span><div><strong>計算機の仕組み</strong><p>論理回路・CPU・メモリ・OS。</p></div></div><div class="item"><span class="num">4</span><div><strong>ネットワークとセキュリティ</strong><p>通信の仕組みと情報の保護。</p></div></div><div class="item"><span class="num">5</span><div><strong>データベースとAI</strong><p>データの管理、機械学習の基本。</p></div></div>
+<h3>学習目標</h3><ul class="checks"><li>簡単なプログラムを読み書きできる。</li><li>二つの手順の効率を計算量で比較できる。</li><li>データがどう表現されるか説明できる。</li><li>システムの利用に伴う安全・個人情報上の注意を述べられる。</li></ul>
+</section>
+
+<section class="box" id="applied">
+<h2>応用：コンピューターサイエンスを使って考える</h2>
+<h3>身近な応用</h3><dl class="terms"><dt>ソフトウェア開発</dt><dd>アプリ・サービスの設計と運用。</dd><dt>データ分析</dt><dd>大量データの整理と可視化。</dd><dt>科学計算</dt><dd>シミュレーションと数値計算。</dd><dt>セキュリティ</dt><dd>暗号と認証。</dd><dt>人工知能</dt><dd>学習・推論システムの構築。</dd></dl>
+<h3>応用課題の進め方</h3>
+<ol><li>調べたい現象・課題を具体的に決める。</li><li>関係する資料・データ・条件を集める。</li><li>複数の資料を比較し、共通点と違いを整理する。</li><li>根拠とともに、どう説明できるかを書く。</li><li>推定の不確かさ・限界・追加で必要な情報を記録する。</li></ol>
+</section>
+
+<section class="box" id="methods">
+<h2>代表的な方法</h2>
+<dl class="terms"><dt>設計</dt><dd>問題を分解し、抽象化する。</dd><dt>実装</dt><dd>プログラムとして書く。</dd><dt>テスト</dt><dd>期待する動作を確認する。</dd><dt>計算量解析</dt><dd>手順の効率を理論的に評価。</dd><dt>実験的評価</dt><dd>実データで性能を測る。</dd></dl>
+<div class="callout"><strong>注意：</strong>個人情報・認証情報・他人のシステムを扱う際は、法令・規約・倫理に従う。学習では公開データやダミーデータを使う。</div>
+</section>
+
+<section class="box" id="advanced">
+<h2>発展：専門的な論点</h2>
+<ul class="advlist"><li>P対NP問題など、計算の難しさの未解決問題。</li><li>機械学習モデルの説明可能性と、偏りの問題。</li><li>ソフトウェアの正しさの検証（テスト・形式手法）の限界。</li></ul>
+<h3>この分野が説明しにくいこと</h3><div class="note"><p>技術的に可能なことと、社会として望ましいことは別。要件が曖昧だと正しい解も定まらない。</p></div>
+<h3>ヘブル語の視点</h3>
+<div class="heb"><span class="w" lang="he">מחשב</span><span class="tr">machshev</span><br><strong>コンピューター（現代語）。語根は考える・計算する</strong><p>現代ヘブル語でコンピューターを指す語で、聖書語「חשב」（考える・計算する）と同根。語の古い意味が新しい技術に当てられた例。</p>
+<p class="muted">注意：聖書ヘブル語の語義は一般的な辞書的意味にもとづく。語源や語の意味範囲から学問の定義を導かない。現代の学術概念とは別物として、理解の補助に使う。</p></div>
+</section>
+
+<section class="box" id="connections">
+<h2>他分野とのつながり</h2>
+<dl class="terms"><dt>数学</dt><dd>離散数学・論理・確率。</dd><dt>論理学</dt><dd>形式的推論と検証。</dd><dt>統計学</dt><dd>データ分析と機械学習。</dd><dt>工学</dt><dd>ハードウェアとシステム設計。</dd><dt>言語学</dt><dd>自然言語処理の背景。</dd><dt>デザイン</dt><dd>インターフェースと利用者体験。</dd></dl>
+<p class="chips">リンク：<a href="mathematics.html">数学</a><a href="logic.html">論理学</a><a href="statistics.html">統計学</a><a href="engineering.html">工学</a><a href="linguistics.html">言語学</a><a href="design.html">デザイン</a></p>
+<h3>この分野への関連</h3><p class="chips"><a href="mathematics.html">数学</a><a href="statistics.html">統計学</a><a href="logic.html">論理学</a><a href="linguistics.html">言語学</a><a href="engineering.html">工学</a><a href="education.html">教育学</a><a href="design.html">デザイン</a></p>
+<h3>横断テーマ</h3><p class="chips"><a href="../themes/education.html">教育と学習</a></p>
+</section>
+
+<section class="box" id="practice">
+<h2>演習と学習記録</h2>
+<h3>机上演習：探索の手順を比べる</h3>
+<ol><li>整列済みの数列から目的の値を探す問題を考える。</li><li>先頭から順に見る方法の手順を書く。</li><li>真ん中から半分ずつ絞る方法の手順を書く。</li><li>データが倍になると最大の比較回数がどう変わるか比べる。</li><li>どの前提（整列済み）が使えるか明記する。</li></ol>
+<p class="muted">コードは不要。手順を日本語で書き、動作を紙の上で追う。</p>
+<h3>学習ノート</h3>
+<p class="muted">入力内容はこの端末のブラウザー内に自動保存される。個人情報や他人の情報は書かない。</p>
+<p><label for="n0">コンピューターサイエンスが扱う主要な問い：</label><textarea id="n0" data-note="computer-science:0"></textarea></p><p><label for="n1">重要だと思う基本概念：</label><textarea id="n1" data-note="computer-science:1"></textarea></p><p><label for="n2">代表的な方法：</label><textarea id="n2" data-note="computer-science:2"></textarea></p><p><label for="n3">つながる他分野：</label><textarea id="n3" data-note="computer-science:3"></textarea></p><p><label for="n4">まだ説明できないこと・調べたいこと：</label><textarea id="n4" data-note="computer-science:4"></textarea></p>
+</section>
+
+<section class="box" id="check">
+<h2>確認問題</h2>
+<p class="muted">まず自分の言葉で答えてから、開いて確かめる。</p>
+<details><summary>「アルゴリズム」とは何か。具体例を一つ挙げて説明せよ。</summary><p>参考：問題を解く手順。</p></details><details><summary>「計算量」とは何か。具体例を一つ挙げて説明せよ。</summary><p>参考：手順に必要な時間や記憶量の増え方。</p></details><details><summary>「データ構造」とは何か。具体例を一つ挙げて説明せよ。</summary><p>参考：データを効率よく扱う整理の形。</p></details><details><summary>「抽象化」とは何か。具体例を一つ挙げて説明せよ。</summary><p>参考：詳細を隠し、使い方だけを見せる設計。</p></details>
+<details><summary>コンピューターサイエンスは何を「説明しにくい」か。理由とともに述べよ。</summary><p>参考：技術的に可能なことと、社会として望ましいことは別。要件が曖昧だと正しい解も定まらない。</p></details>
+<details><summary>この分野で、観察した事実と自分の解釈を分けて記録するには、どう書くか。</summary><p>参考：「観察：…（数値・日付・条件）」「解釈：…（根拠）」「不明：…」の三欄に分ける。</p></details>
+</section>
+<div class="pn"><a href="logic.html">← 論理学</a><span></span></div>
+</main>
+<footer class="site"><div class="wrap">
+<p>このサイトは学習用の案内図です。分野の区分は固定的でなく、学問どうしは重なり合います。医療・法律・投資などの個別判断には、専門家と最新の公的情報を使ってください。</p>
+<p>学習ノートと進捗は、この端末のブラウザー内にだけ保存され、外部へは送信されません。</p>
+</div></footer>
+<script>var ROOT="../";</script>
+<script src="../assets/search-index.js"></script>
+<script src="../assets/app.js"></script>
+</body></html>
